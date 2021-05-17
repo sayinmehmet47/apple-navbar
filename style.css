@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;}
+
+.picture{
+    background-image: url("./apple-picture/your_verse_hero.jpg");
+    background-color: #cccccc;
+    height:100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+  }
+
+
+  
+.hero-nav {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width:70%;
+
+  }
+
+  .col-1{
+      background-image: url("./apple-picture/promo_iphone5s.jpg");
+      height: 30vh;
+      width: 25vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+
+
+  }
+
+  .col-2{
+    background-image: url("./apple-picture/promo_iphone5c.jpg");
+    height: 30vh;
+    width: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+
+.col-3{
+    background-image: url("./apple-picture/promo_30_years.jpg");
+    height: 30vh;
+    width: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+
+.col-4{
+    background-image: url("./apple-picture/promo_supplier_responsibility.jpg");
+    height: 30vh;
+    width: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    background: linear-gradient(180deg,#a7a8a7 0%,rgb(65, 64, 64) 50%,#6b6a6a 100%);
+
+}
+
+input[type="text"], textarea {
+
+    background: linear-gradient(180deg,#a7a8a7 0%,rgb(65, 64, 64) 50%,#6b6a6a 100%);
+    border-radius: 15px;
+    color: white;
+  }
